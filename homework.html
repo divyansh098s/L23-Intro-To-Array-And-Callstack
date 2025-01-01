@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Homework</title>
+</head>
+<body>
+<h2>Javascript Objects Data Structure And Arrays</h2>
+<script>
+var student = {
+name : 'Divyansh',
+age : '13',
+Grade : '7',
+hobbies:'Music Instrument',
+fav_sport:'Cricket'
+};
+var cricketers = ["Virat Kohli","Smriti Mandhana","Rohit Sharma","Harmanpreet Kaur","Jaspreet Bumrah","Renuka Singh Thakur","Hardik Pandya","Shreyanka Patil","Jemimah Rodrigues","Shubman Gill"
+];
+document.write("Student Name Is : " + student.name,"<br>","Student Favorite Sport Is : " + student.fav_sport);
+document.write("<br>Before Poping The Cricketers Are : " +cricketers.join("&"));
+document.write("<br>My Favorite Men Cricketer Is : " + cricketers[0]);
+document.write("<br>My Favorite Women Cricketer Is : " +cricketers[1]);
+cricketers.pop();
+document.write("<br>After Poping The Cricketers Are : " + cricketers.join("%"));
+</script>
+</body>
+</html>
